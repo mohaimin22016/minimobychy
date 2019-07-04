@@ -1,0 +1,55 @@
+*{
+	margin: 0px; padding: 0px}
+	/*navigation section*/
+.topbar{ padding: 30px }
+.container{width: 1200px;margin: 0px auto; }
+.logo{width: 30%;float: left;}
+.logo img{;}
+.menu{width:70%;float: left }
+.menu ul{list-style: none;float: right; }
+.menu ul li{display: inline-block;margin-left: 70px; font-family: 'Playfair Display', serif;}
+.menu ul li a {text-decoration: none; color: #626262}
+.menu ul li a:hover{color: red}
+/*navigation sectior end*/
+ /*banner section*/
+.banner{}
+.banner img{width: 100%}
+/*banner sectio end*/
+
+/*single blog */
+.single{ padding: 90px 30px; }
+.category,.comment{ text-decoration: none;color: #b4ad9e;;font-family: 'Ubuntu';, sans-serif; font-size: 16px;display: inline-block;  ;margin-bottom: 30px}
+.single h1{ color: #626262;font-size: 30px;margin-bottom: 33px }
+.single p{ font-size: 17px; line-height: 24px;color: #626262 }
+.comment{ margin-top: 44px;margin-bottom: 0px }
+/*single blog end*/
+/*double blog*/
+.first,.second,.third{ padding: 80px 0 ;margin-bottom: 90px}
+.box{width: 50%;float: left;box-sizing: border-box;padding: 20px}
+.box img{ display: block;width: 100%;margin-bottom: 30px }
+.box h1{font-size: 30px;color: #626262;margin-bottom: 40px}
+.box p{ font-size: 17px; line-height: 24px;color: #626262 }
+/*double blog end*/
+/*news letter section*/
+.newsletter{ background-color: #f0f0f0;
+clear: both;padding: 80px 0px; text-align: center; }
+.newsletter h1{ font-size: 30px; color: #626262;margin-bottom: 90px }
+.newsletter form{ border-bottom: 1px solid#333;width: 30%;margin: 0 auto;position: relative;}
+.newsletter form input{border: none;background-color:transparent;padding-bottom: 10px;position: absolute;top: -17px;left: 0;width: 80% }
+.newsletter form img{position: absolute;top: -17px;right: 0}
+/*news letter section end*/
+/*load more*/
+.btn{text-align: center;padding-top: 150px;}
+.button{color: #626262 ; text-decoration: none; padding: 16px 40px; border: 1px solid;font-family: 'Ubuntu';font-size: 18px;display: inline-block; margin-top: 150px;}
+.button:hover{background-color: #626262;color: white;transition: all 0.5s linear}
+/*load more end*/
+
+/*end section*/
+.last{ margin-top: 1500px ;background-color: #f0f0f0;padding: 35px 60px 35px 160px}
+.social{color: black ;text-decoration: none;font-size: 18px;}
+.social:hover{color: red}
+.socialtwo{padding-left: 20px}
+.socialthree{padding-left: 860px}
+.socialfour{padding-left: 15px}
+.socialfive{padding-left: 15px}
+.socialsix{padding-left: 15px}
